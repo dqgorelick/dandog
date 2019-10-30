@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dan's dogs</title>
+	<link id="favicon" rel="shortcut icon" type="image/gif" href="doggo.gif" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@dqgorelick">
+	<meta name="twitter:creator" content="@dqgorelick">
+	<meta property="og:site_name" content="dan's dogs">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="dan's dogs">
+	<meta property="og:url" content="https://dan.dog/">
+	<meta property="og:description" content="dan's dogs">
+	<meta property="og:image" content="https://dan.dog/doggo.gif">
+	<meta property="og:image:url" content="https://dan.dog/doggo.gif">
+	<meta property="og:image:type" content="image/gif">
+	<meta property="og:image:width" content="330">
+	<meta property="og:image:height" content="330">
+</head>
+<body>
+	<p>
+		All of <a href="http://danielgorelick.com">my</a> dogs:
+	</p>
+	<ul>
+	</ul>
+	<script type="text/javascript">
+		(function() {
+			var doggo = 0;
+			setInterval(function() {
+				doggo = (doggo+1)%6;
+			    document.querySelector("link[rel='shortcut icon']").href = './doggo' + (doggo + 1) + '.gif';
+			}, 150);
+		})();
+	</script>
+</body>
+</html>
