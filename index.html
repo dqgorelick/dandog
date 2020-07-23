@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>dan's dogs</title>
+	<title>Dan Gorelick</title>
 	<link id="favicon" rel="shortcut icon" type="image/gif" href="doggo.gif" />
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,46 +9,155 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@dqgorelick">
 	<meta name="twitter:creator" content="@dqgorelick">
-	<meta property="og:site_name" content="dan's dogs">
+	<meta property="og:site_name" content="Dan Gorelick">
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="dan's dogs">
 	<meta property="og:url" content="https://dan.dog/">
-	<meta property="og:description" content="dan's dogs">
+	<meta property="og:description" content="Dan Gorelick">
 	<meta property="og:image" content="https://dan.dog/doggo.gif">
 	<meta property="og:image:url" content="https://dan.dog/doggo.gif">
 	<meta property="og:image:type" content="image/gif">
 	<meta property="og:image:width" content="330">
 	<meta property="og:image:height" content="330">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+	<style>
+		html, body {
+			color: #fff;
+			background-color: #020202;
+			font-family: 'Poppins', sans-serif;
+			width: 100%;
+			font-size: 18px;
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			width: 100%;
+			position: relative;
+			height: 100vh;
+			width: 100%;
+		}
+		h1 {
+			font-size: 3rem;
+			line-height: 3rem;
+			margin-bottom: 1rem;
+			margin-top: 1rem;
+		}
+		a {
+			color: #5fe2ed;
+		}
+		a:hover {
+			background-color: #5fe2ed;
+			color: #000;
+		}
+		.fullbleed {
+			min-height: 100%;
+			min-width: 1024px;
+			width: 100%;
+			height: auto;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: url(./images/main2.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		.wrapper {
+			margin: 0 auto;
+			width: 80%;
+			min-width: 600px;
+			bottom: 0;
+		}
+		.bio {
+			background-color: rgba(0,0,0,0.3);
+			position: absolute;
+			bottom: 0;
+			margin: 1rem;
+			padding: 1rem;
+		}
+		.description br {
+			display: none;
+		}
+     	.credit {
+     		margin-top: 2rem;
+		  	color: #888;
+		}
+		.credit a {
+			color: #888;	
+		}
+		.credit a:hover {
+			background-color: #888;
+			color: #fff;
+		}
+		@media screen and (max-width: 1500px) { 
+			body {
+				font-size: 14px;
+			}
+			.wrapper {
+				margin: 0 auto;
+				width: 90%;
+			}
+		@media screen and (max-width: 600px) { 
+		  body {
+		  	font-size: 13px;
+		  }
+		  h1 {
+		  	font-size: 2.2rem;
+		  	line-height: 2.2rem;
+		  	margin-bottom: 1rem;
+		  }
+		  .fullbleed {
+		  	min-width: 100%;
+		    background: url(./images/mobile.jpg) no-repeat top center fixed; 
+		    -webkit-background-size: contain;
+			-moz-background-size: contain;
+			-o-background-size: contain;
+			background-size: contain;
+		    height: 200px;
+		    width: auto;
+		  }
+		  .wrapper {
+		  	position: fixed;
+		  }
+		  .bio {
+		  	position: fixed;
+		  }
+		  .description br {
+		  	display: initial;
+		  }
+		  .credit {
+		  	margin-top: 1rem;
+		  }
+		}
+	</style>
 </head>
 <body>
-	<p>Recent Projects</p>
-	<ul>
-		<li><a target="_blank" href="https://danielgorelick.com/midi2/">Web Experiment #2: Bezier Play</a></li>
-		<li><a target="_blank" href="https://paint.fun/">paint.fun</a></li>
-		<li><a target="_blank" href="https://dear-stranger.glitch.me/">Dear Stranger – interactive brush</a></li>
-		<li><a target="_blank" href="http://west4th.bayeterosssmith.com/">West 4th Street</a></li>
-		<li><a target="_blank" href="http://wikipedia-game.glitch.me/"> Wikipedia Game</a></li>
-		<li><a target="_blank" href="https://danielgorelick.com/midi/">Web Experiment #1: Moscow Midi</a></li>
-	</ul>
-	<p>
-		Live coding links
-	</p>
-	<ul>
-		<li>Livecoding <a target="_blank" href="https://livecode.nyc/">Livecode.nyc</a></li>
-		<li><a target="_blank" href="https://www.gettoby.com/p/hg6yc4zlbnla">SVG Resources</a></li>
-		<li><a target="_blank" href="http://pages.tidalcycles.org/">Tidalcycles</a></li>
-	</ul>
-	<p>
-		All of my dogs (past and present):
-	</p>
-	<ul>
-			<li></li>
-			<li></li>
-	</ul>
-	<p>
-		<a href="http://danielgorelick.com">More projects</a>
-	</p>
+	<div class="fullbleed"></div>
+	<div class="wrapper">
+		<div class="bio">
+			<h1>Dan Gorelick</h1>
+			<p class="description">
+				Brooklyn based musician, creative technolist, and livecoder
+			</p>
+			<p>
+				Twitter: <a href="https://twitter.com/dqgorelick" target="_blank">@dqgorelick</a>
+				<br>
+				Instagram: <a href="https://www.instagram.com/dqgorelick/" target="_blank">@dqgorelick</a>
+				<br>
+				Soundcloud: <a href="https://soundcloud.com/danqg" target="_blank">soundcloud.com/danqg</a>
+				<br>
+				Github: <a href="https://github.com/dqgorelick" target="_blank">@dqgorelick</a>
+				<br> 
+				Projects: <a href="https://danielgorelick.com/" target="_blank">danielgorelick.com</a>
+			</p>
+			<p>For inquiries: dqgorelick@gmail.com</p>
+			<p class="credit">
+				photo by <a href="http://adorevolution.com/" target="_blank">seb morales</a>
+			<p>
+		</div>
+	</div>
 	<script type="text/javascript">
 		(function() {
 			var doggo = 0;
