@@ -1,11 +1,10 @@
 {
-  "name": "Dan Gorelick",
+  "name": "dan.dog",
   "short_name": "dan.dog",
   "theme_color": "#5fe2ed",
   "background_color": "#000000",
   "display": "fullscreen",
-  "scope": "/",
-  "start_url": "dan.dog",
+  "start_url": "/index.html",
   "description": "Dan Gorelick personal site.",
   "icons": [{
     "src": "images/doggo.png",
